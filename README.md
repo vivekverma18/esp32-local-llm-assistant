@@ -44,15 +44,13 @@ This project transforms a SenseCAP Watcher into a completely private AI assistan
 - 🔌 **Low Power**: ~2W idle, ~5W active consumption
 - 📱 **Mobile Config**: Easy setup via SenseCraft app
 
+
+
 ## 🏗️ Architecture
 
-The system implements a distributed edge computing architecture:
-
-```
 <p align="center">
   <img src="https://github.com/vivekverma18/esp32-local-llm-assistant/blob/main/Imported%20from%20excalidraw.com.excalidraw.png" width="800" alt="Local AI Assistant Architecture">
 </p>
-```
 
 
 
