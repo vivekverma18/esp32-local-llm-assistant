@@ -91,11 +91,13 @@ This project transforms a SenseCAP Watcher into a completely private AI assistan
 - Storage: 20GB free space
 - OS: Windows 10/11, Ubuntu 20.04+, macOS 12+
 
-#### Recommended Configuration
-- CPU: 8 cores, 3.0GHz+
-- RAM: 16GB
-- GPU: NVIDIA GTX 1660 or better (for faster inference)
-- Storage: 50GB SSD space
+**Framework Desktop (My Actual Build):**
+- **CPU**: AMD Ryzen™ 9 Maxx 395 
+- **RAM**: 128GB DDR5 
+- **Storage**: 1TB WD BLACK™ SN760 NVMe™ M.2 2280
+- **Cooling**: Cooler Master Mobius 120
+- **GPU**: Integrated AMD Radeon graphics (discrete GPU can be added)
+- **Why This Config**: Massive 128GB RAM for loading multiple LLMs, desktop Ryzen 9 for sustained high performance without thermal throttling
 
 ## 💻 Software Requirements
 
@@ -416,28 +418,6 @@ esptool.py --chip esp32s3 --port COM3 --baud 115200 write_flash 0x0 xiaozhi-watc
 2. Hold BOOT button during entire flash process
 3. Use shorter USB cable
 4. Try different USB port
-
-## 📊 Performance Metrics
-
-### Response Times
-- Wake word detection: <100ms
-- Audio capture: 1-2 seconds
-- LLM inference (CPU): 3-5 seconds
-- LLM inference (GPU): 1-2 seconds
-- Total response: 3-7 seconds
-
-### Resource Usage
-- Watcher idle: 2W power
-- Watcher active: 5W power
-- Server CPU usage: 40-60% during inference
-- Server RAM usage: 4-6GB for Qwen-7B
-- Network bandwidth: <1Mbps
-
-### Accuracy Metrics
-- Wake word accuracy: 95%+
-- Speech recognition: 90%+
-- Vision recognition: 85%+
-- Overall satisfaction: High
 
 ## 🚀 Advanced Configuration
 
