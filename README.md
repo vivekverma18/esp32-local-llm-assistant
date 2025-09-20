@@ -67,8 +67,8 @@ This project transforms a SenseCAP Watcher into a completely private AI assistan
 
 | Component | Specification | Price (USD) | Purchase Link |
 |-----------|--------------|-------------|---------------|
-| **SenseCAP Watcher** | ESP32-S3 + Himax AI | $89 | [Seeed Studio](https://www.seeedstudio.com/sensecap-watcher) |
-| **Local Server** | Min 8GB RAM, GPU recommended | Existing PC | - |
+| **SenseCAP Watcher** | ESP32-S3 + Himax AI | $89 | [Seeed Studio]([https://www.seeedstudio.com/sensecap-watche](https://www.seeedstudio.com/SenseCAP-Watcher-W1-A-p-5979.html)r) |
+| **Local Server** | Min 16GB RAM, GPU recommended | Existing PC | - |
 | **USB-C Cable** | For initial flashing | $5 | Any electronics store |
 | **WiFi Router** | 2.4GHz support required | Existing | - |
 
