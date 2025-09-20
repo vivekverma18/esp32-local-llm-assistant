@@ -49,7 +49,9 @@ This project transforms a SenseCAP Watcher into a completely private AI assistan
 The system implements a distributed edge computing architecture:
 
 ```
-image here
+<p align="center">
+  <img src="https://github.com/vivekverma18/esp32-local-llm-assistant/blob/main/Imported%20from%20excalidraw.com.excalidraw.png" width="800" alt="Local AI Assistant Architecture">
+</p>
 ```
 
 
