@@ -2,7 +2,6 @@
 
 Build your own 100% private AI assistant with vision and voice capabilities using ESP32 and local LLM - No cloud required!
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-ESP32-green.svg)
 ![Language](https://img.shields.io/badge/language-Python-yellow.svg)
 
